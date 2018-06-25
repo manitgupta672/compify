@@ -55,7 +55,7 @@ class UserDetail extends React.Component{
 
         return (
             <div>
-                <div className="hidden-xs gap" ></div>
+                <div className="visible-xs gap" ></div>
                 <p className="text-uppercase front-para-text"> <span className="title-own-user">ORGANIZERS</span> + <span className="title-span">{this.state.user ? this.state.user.tags[0].name : ''}</span> </p>
                 <p>{this.state.user ? this.state.user.about: ''}</p>
                 
